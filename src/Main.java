@@ -9,6 +9,29 @@ public static void main(String[] args) { //Método main, por onde o programa com
     boolean verdadeiro = true;           // boolean é uma variável que comporta apenas "true" para verdadeiro e "falso" para falso
     String texto = "Ola!";               //String é uma "variável" que comporta apenas textos
 
+    System.out.println(texto);           // Esse comando também pode imprimir variáveis
+
+                                         // uma variável pode armazenar o valor do resultado de uma operação entre números ou entre outras variáveis
+
+    int ex1 = 1 + 1;                     // resultado esperado: 2
+    System.out.println(ex1);
+    int ex2 = numeroInteiro + 3;
+    System.out.println(ex2);             // resultado esperado: 3
+    int ex3 = numeroInteiro + numeroInteiroP;
+
+                                         // as operações também podem ser feitas de dentro do comando de exibir texto, porém isso não é recomendado
+
+    System.out.println(numeroInteiro + 7);
+
+                                         // na programação, aluns caracteres usados para realizar as operações são um pouco diferentes dos convencionais:
+                                         // Adição -> +  |  Subtração -> -  |  Divisão -> /  |  Multiplicação -> *
+                                         //Exemplos:
+
+    int soma = 2 + 1;
+    int subtracao = 2 - 1;
+    int divisao = 2 / 1;
+    int multiplicacao = 2 * 1;
+
 
 
 }
